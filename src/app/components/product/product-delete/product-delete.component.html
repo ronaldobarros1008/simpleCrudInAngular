@@ -6,8 +6,16 @@
             [(ngModel)]="product.name" name="name" disabled>
         </mat-form-field>
         <mat-form-field>
+            <input matInput placeholder="Descrição"
+            [(ngModel)]="product.description" name="description" disabled>
+        </mat-form-field>
+        <mat-form-field>
             <input matInput placeholder="Preço (R$)"
             [(ngModel)]="product.price" name="price" type="number" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Quantidade em Estoque"
+            [(ngModel)]="product.amount" name="amount" type="number" disabled>
         </mat-form-field>        
     </form>
     <button mat-raised-button (click)="deleteProduct()" color="warn">
