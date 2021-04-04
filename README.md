@@ -12,6 +12,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 5 - Para este app estamos usando uma api rest em **springboot** a mesma se encontra na senguinte url: (https://github.com/ronaldobarros1008/apirestjava)
 
+6 - Usamos como template o [Material](https://material.angular.io/)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
