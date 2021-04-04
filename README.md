@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
+1 - Estamos usando o [NPM](https://nodejs.org/en/) , portanto, certifique-se de ter o Node instalado.
+
+2 - Estamos usando [Angular](https://angular.io/guide/setup-local) - Você pode instalar o CLI globalmente usando `npm install -g @angular/cli`;
+
+3 - Execute `npm install` para instalar todas as dependências e iniciar a codificação
+
+3 - Execute `npm start` para subir o app. 
+
+5 - Para este app estamos usando uma api rest em **springboot** a mesma se encontra na senguinte url: (https://github.com/ronaldobarros1008/apirestjava)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
